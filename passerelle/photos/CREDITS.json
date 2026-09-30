@@ -1,0 +1,52 @@
+[
+  {
+    "slot": "heros",
+    "query": "students studying group table",
+    "title": "People Girls",
+    "creator": "Brodie Vissers",
+    "license": "CC0 1.0",
+    "source": "https://stocksnap.io/photo/people-girls-Y2AHVPYB51",
+    "via": "Openverse",
+    "file": "heros.png"
+  },
+  {
+    "slot": "similaire1",
+    "query": "chemistry laboratory glassware",
+    "title": "Mouths",
+    "creator": "The Wandering Angel",
+    "license": "BY 2.0",
+    "source": "https://www.flickr.com/photos/86518301@N00/3664398844",
+    "via": "Openverse",
+    "file": "similaire1.png"
+  },
+  {
+    "slot": "fiche",
+    "query": "mathematics notebook",
+    "title": "Furiously Factoring",
+    "creator": "CarbonNYC [in SF!]",
+    "license": "BY 2.0",
+    "source": "https://www.flickr.com/photos/15923063@N00/2965625438",
+    "via": "Openverse",
+    "file": "fiche.png"
+  },
+  {
+    "slot": "similaire2",
+    "query": "notebook pencil",
+    "title": "Notebook Pencil",
+    "creator": "Thought Catalog",
+    "license": "CC0 1.0",
+    "source": "https://stocksnap.io/photo/notebook-pencil-LTY3TGLE73",
+    "via": "Openverse",
+    "file": "similaire2.png"
+  },
+  {
+    "slot": "similaire3",
+    "query": "books reading literature study desk",
+    "title": "Book Bookmark",
+    "creator": "Studio 7042",
+    "license": "CC0 1.0",
+    "source": "https://stocksnap.io/photo/book-bookmark-4BR2JDSSA1",
+    "via": "Openverse",
+    "file": "similaire3.png"
+  }
+]

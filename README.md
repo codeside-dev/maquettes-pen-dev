@@ -7,6 +7,7 @@ Maquettes de sites et d'interfaces conçues avec **pen.dev**.
 | [`forge-landing/`](forge-landing/) | Landing page pour un agent de code en terminal | 1 |
 | [`boulangerie/`](boulangerie/) | Site vitrine d'une boulangerie artisanale | 1 (avec section boutique) |
 | [`ecommerce-aura/`](ecommerce-aura/) | E-commerce audio haut de gamme, style Apple | 3 (accueil, liste, fiche produit) |
+| [`passerelle/`](passerelle/) | Soutien scolaire du collège au lycée, toutes matières | 4 pages, chacune en 1440 px et 390 px |
 
 ## Apercu
 
@@ -25,6 +26,26 @@ Maquettes de sites et d'interfaces conçues avec **pen.dev**.
 ![liste produit](ecommerce-aura/screenshots/aura-plp.png)
 
 ![fiche produit](ecommerce-aura/screenshots/aura-pdp.png)
+
+### passerelle
+
+![accueil](passerelle/screenshots/accueil.png)
+
+![liste des cours](passerelle/screenshots/liste-cours.png)
+
+![fiche cours](passerelle/screenshots/fiche-cours.png)
+
+![réservation](passerelle/screenshots/reservation.png)
+
+Chaque page existe aussi en **390 px**, conçue et non réduite :
+
+![accueil mobile](passerelle/screenshots/accueil-mobile.png)
+
+![liste des cours mobile](passerelle/screenshots/liste-cours-mobile.png)
+
+![fiche cours mobile](passerelle/screenshots/fiche-cours-mobile.png)
+
+![réservation mobile](passerelle/screenshots/reservation-mobile.png)
 
 ## Contenu de chaque dossier
 
