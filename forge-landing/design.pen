@@ -1,0 +1,1110 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "tQMtS",
+      "x": 0,
+      "y": 0,
+      "name": "Page",
+      "width": 1440,
+      "fill": "#0B0F14",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "s3Awjp",
+          "name": "Nav",
+          "width": "fill_container",
+          "fill": "#0B0F14",
+          "padding": [
+            26,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Sj3w2",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 6,
+                  "id": "TQnNd",
+                  "name": "Logo",
+                  "fill": "#3B82F6",
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "type": "text",
+                  "id": "CNd5J",
+                  "fill": "#E6EDF3",
+                  "content": "Forge",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WDB3f",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WDXea",
+                  "fill": "#94A6BA",
+                  "content": "Docs",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hMzuT",
+                  "fill": "#94A6BA",
+                  "content": "Plugins",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "w4OEu",
+                  "fill": "#94A6BA",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "vOUmz",
+                  "name": "CTA Nav",
+                  "fill": "#3B82F6",
+                  "cornerRadius": 8,
+                  "padding": [
+                    9,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U1A7P0",
+                      "fill": "#FFFFFF",
+                      "content": "Install",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "m995d",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "#0B0F14",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            88,
+            72,
+            64,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "L1csg",
+              "name": "Eyebrow",
+              "fill": "#131A23",
+              "cornerRadius": 999,
+              "stroke": "#212C38",
+              "strokeWidth": 1,
+              "gap": 8,
+              "padding": [
+                7,
+                15
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Blxmb",
+                  "fill": "#3B82F6",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "type": "text",
+                  "id": "RNZYM",
+                  "fill": "#94A6BA",
+                  "content": "Developer preview · 1.4",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SV4Vj",
+              "name": "H1",
+              "fill": "#E6EDF3",
+              "textGrowth": "fixed-width",
+              "width": 960,
+              "content": "Finally, an agent that lives in your terminal.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "D4PWe",
+              "name": "Sub",
+              "fill": "#94A6BA",
+              "textGrowth": "fixed-width",
+              "width": 740,
+              "content": "Forge runs a coding agent inside your shell, your editor and your chat — real files, real commands, and approvals you actually control.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 19,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Dy2KY",
+              "name": "HeroCTA",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pd0zU",
+                  "fill": "#3B82F6",
+                  "cornerRadius": 10,
+                  "padding": [
+                    15,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j6I0Q",
+                      "fill": "#FFFFFF",
+                      "content": "Install in 60 seconds",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CbCGH",
+                  "fill": "#131A23",
+                  "cornerRadius": 10,
+                  "stroke": "#212C38",
+                  "strokeWidth": 1,
+                  "padding": [
+                    15,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jOYJP",
+                      "fill": "#E6EDF3",
+                      "content": "Read the docs",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "roHnQ",
+              "name": "Terminal",
+              "clip": true,
+              "width": 840,
+              "fill": "#0F151D",
+              "cornerRadius": 14,
+              "stroke": "#212C38",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TvyLt",
+                  "width": "fill_container",
+                  "fill": "#131A23",
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "Ndrtv",
+                      "fill": "#2A3644",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "HQ6Zj",
+                      "fill": "#2A3644",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "rMxQG",
+                      "fill": "#2A3644",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "r6QpHX",
+                      "fill": "#94A6BA",
+                      "content": "forge — zsh",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rdR4M",
+                  "width": "fill_container",
+                  "fill": "#0F151D",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "padding": [
+                    22,
+                    26
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N1JvXs",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "$ npm i -g @forge/cli",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g3fJjd",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "$ forge \"refactor the auth module and run the tests\"",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OKJUc",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "  → reading 14 files",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "slIo9",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "  → editing 3 files",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vXvoz",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "  → running pytest",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kLSFI",
+                      "fill": "#3B82F6",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "  ✓ 42 passed in 3.1s",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cbZv6",
+          "name": "Proof",
+          "width": "fill_container",
+          "fill": "#0F151D",
+          "padding": [
+            38,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "e3qTou",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NOK9E",
+                  "fill": "#E6EDF3",
+                  "content": "MIT",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Pg0jf",
+                  "fill": "#94A6BA",
+                  "content": "open source licence",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j7hkz",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "C1sB4",
+                  "fill": "#E6EDF3",
+                  "content": "3 surfaces",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "LW6uE",
+                  "fill": "#94A6BA",
+                  "content": "CLI · Web · Discord",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S2qM8",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "g928QA",
+                  "fill": "#E6EDF3",
+                  "content": "1.4.0",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "d7rnXR",
+                  "fill": "#94A6BA",
+                  "content": "current release",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i7mu6",
+              "layout": "vertical",
+              "gap": 5,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M2ciM1",
+                  "fill": "#E6EDF3",
+                  "content": "Plugin API",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "BZB7v",
+                  "fill": "#94A6BA",
+                  "content": "extend every surface",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "f9L3y",
+          "name": "Features",
+          "width": "fill_container",
+          "fill": "#0B0F14",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            92,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "vrJgd",
+              "name": "FeaturesHead",
+              "width": 640,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EK7mU",
+                  "fill": "#3B82F6",
+                  "content": "WHY FORGE",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "KQaMy",
+                  "fill": "#E6EDF3",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "Built for people who live in a shell.",
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Uxu2t",
+                  "fill": "#94A6BA",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "No new editor, no new workflow. Your agent works where your code already is.",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "b6QWAU",
+              "name": "FeatureCards",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H5xSG",
+                  "width": "fill_container",
+                  "fill": "#131A23",
+                  "cornerRadius": 14,
+                  "stroke": "#212C38",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DMvQd",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#1B2430",
+                      "cornerRadius": 11,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "pjjJh",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "terminal",
+                          "library": "lucide",
+                          "fill": "#3B82F6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "phuJO",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Real shell, real files",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K0Emlo",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Runs commands and edits your actual project — not a sandbox toy. Git, pytest, npm, whatever you already use.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wQ74x",
+                  "width": "fill_container",
+                  "fill": "#131A23",
+                  "cornerRadius": 14,
+                  "stroke": "#212C38",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "huB8g",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#1B2430",
+                      "cornerRadius": 11,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "F6cnpN",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "globe",
+                          "library": "lucide",
+                          "fill": "#3B82F6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "xLfbA",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "One agent, every surface",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OPNQN",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Start in the terminal, continue in the browser, hand off to Discord. Same session, same context, no re-explaining.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d55MZ",
+                  "width": "fill_container",
+                  "fill": "#131A23",
+                  "cornerRadius": 14,
+                  "stroke": "#212C38",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lulhm",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#1B2430",
+                      "cornerRadius": 11,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "vVtqg",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "shield-check",
+                          "library": "lucide",
+                          "fill": "#3B82F6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cgobK",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Approvals you control",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BLIJJ",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sandbox modes, per-tool grants and inline confirmations. Nothing runs without your say-so.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e7VTl",
+          "name": "QuickStart",
+          "width": "fill_container",
+          "fill": "#0F151D",
+          "gap": 64,
+          "padding": [
+            92,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z3iPua",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xVvMP",
+                  "fill": "#3B82F6",
+                  "content": "GET STARTED",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "fgz47",
+                  "fill": "#E6EDF3",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Three commands to your first task.",
+                  "fontFamily": "Inter",
+                  "fontSize": 38,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "oeFpm",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V6fTaj",
+                      "fill": "#3B82F6",
+                      "content": "1",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TzsJV",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Install the CLI globally with npm.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CVxwT",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rOaWm",
+                      "fill": "#3B82F6",
+                      "content": "2",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q1Ewl",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Open a terminal in the project you want to work on. No import, no index.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GBjd3",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mCDuM",
+                      "fill": "#3B82F6",
+                      "content": "3",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tb5yS",
+                      "fill": "#94A6BA",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ask in plain language. The agent reads, edits and runs your tests.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g8h7u",
+              "name": "QuickCode",
+              "clip": true,
+              "width": 520,
+              "fill": "#0B0F14",
+              "cornerRadius": 14,
+              "stroke": "#212C38",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "b4LOA0",
+                  "width": "fill_container",
+                  "fill": "#131A23",
+                  "gap": 8,
+                  "padding": [
+                    13,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "e1ODT",
+                      "fill": "#2A3644",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "C2vYUW",
+                      "fill": "#2A3644",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "lW7vr",
+                      "fill": "#2A3644",
+                      "width": 10,
+                      "height": 10
+                    },
+                    {
+                      "type": "text",
+                      "id": "crv8c",
+                      "fill": "#94A6BA",
+                      "content": "quick start",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j678BE",
+                  "width": "fill_container",
+                  "fill": "#0B0F14",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lwnID",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "$ npm i -g @forge/cli",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SM9GK",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "$ cd ~/your-project",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iqPGg",
+                      "fill": "#E6EDF3",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "$ forge",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZKjxt",
+                      "fill": "#3B82F6",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "  session ready",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SEalH",
+          "name": "FinalCTA",
+          "width": "fill_container",
+          "fill": "#0B0F14",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "r0InPG",
+              "fill": "#E6EDF3",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Bring your agent home.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 46,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ezkgq",
+              "fill": "#94A6BA",
+              "textGrowth": "fixed-width",
+              "width": 660,
+              "content": "Free and open source. Install it, point it at a repo, and see what it does with the work you have been putting off.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "W2irKZ",
+              "fill": "#3B82F6",
+              "cornerRadius": 10,
+              "padding": [
+                16,
+                30
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ca5aM",
+                  "fill": "#FFFFFF",
+                  "content": "Install Forge",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Pv5zh",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#0F151D",
+          "padding": [
+            30,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SpPF7",
+              "fill": "#94A6BA",
+              "content": "© 2026 Forge",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "tLQq4",
+              "gap": 26,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vwXvl",
+                  "fill": "#94A6BA",
+                  "content": "Docs",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LtrxE",
+                  "fill": "#94A6BA",
+                  "content": "Plugins",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "E4t1jY",
+                  "fill": "#94A6BA",
+                  "content": "GitHub",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "cOtqK",
+                  "fill": "#94A6BA",
+                  "content": "Discord",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "284402a6-c91e-4441-8d2b-6f8bb958a8e8"
+}

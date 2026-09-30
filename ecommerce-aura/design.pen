@@ -1,0 +1,1988 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "M3ZCSF",
+      "x": 0,
+      "y": 0,
+      "name": "PageAccueil",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "oYADa",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#F5F5F7",
+          "stroke": "#D2D2D7",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "x4fT9X",
+              "fill": "#1D1D1F",
+              "content": "AURA",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "Vyki8",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a9itK0",
+                  "fill": "#1D1D1F",
+                  "content": "Boutique",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "txrBX",
+                  "fill": "#1D1D1F",
+                  "content": "Casques",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u4vcX6",
+                  "fill": "#1D1D1F",
+                  "content": "Enceintes",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "a1lzR",
+                  "fill": "#1D1D1F",
+                  "content": "Platines",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zqsxL",
+                  "fill": "#1D1D1F",
+                  "content": "Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "snv9T",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "yzypw",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "#1D1D1F"
+                },
+                {
+                  "type": "icon",
+                  "id": "v1yBwp",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "shopping-bag",
+                  "library": "lucide",
+                  "fill": "#1D1D1F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YkchN",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            80,
+            48,
+            0,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "hyWSU",
+              "fill": "#0071E3",
+              "content": "NOUVEAU",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "V9jJa",
+              "name": "H1",
+              "fill": "#1D1D1F",
+              "textGrowth": "fixed-width",
+              "width": 1000,
+              "content": "Le son, réduit à l'essentiel.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": "600",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "MDZgA",
+              "name": "Sub",
+              "fill": "#6E6E73",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "AURA One. Réduction de bruit adaptative, 40 heures d'autonomie, 248 grammes.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 19,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "d6lV5",
+              "gap": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BAiQV",
+                  "fill": "#0071E3",
+                  "cornerRadius": 980,
+                  "padding": [
+                    11,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CDMF9",
+                      "fill": "#FFFFFF",
+                      "content": "Acheter",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "n0k7S",
+                  "fill": "#0071E3",
+                  "content": "En savoir plus ›",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W6E42",
+              "name": "HeroPanel",
+              "width": "fill_container",
+              "fill": "#F5F5F7",
+              "layout": "vertical",
+              "padding": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "E0Wf4",
+                  "name": "HeroPhoto",
+                  "width": "fill_container",
+                  "height": 520,
+                  "fill": "#E8E8ED",
+                  "cornerRadius": 18
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FFTD3",
+          "name": "Featured",
+          "width": "fill_container",
+          "fill": "#F5F5F7",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "B4p2H",
+              "name": "FeaturedHead",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U99IM",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xw0KC",
+                      "fill": "#1D1D1F",
+                      "content": "À la une.",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "600",
+                      "letterSpacing": -1
+                    },
+                    {
+                      "type": "text",
+                      "id": "z4dHi",
+                      "fill": "#6E6E73",
+                      "content": "Trois façons d'écouter.",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "i0RkpY",
+                  "fill": "#0071E3",
+                  "content": "Voir tout ›",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p0YgJt",
+              "name": "FeaturedRow",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SKzT0",
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CsGEP",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "zR4rW",
+                      "fill": "#1D1D1F",
+                      "content": "AURA One",
+                      "fontFamily": "Inter",
+                      "fontSize": 21,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "gtVCE",
+                      "fill": "#6E6E73",
+                      "content": "Casque à réduction de bruit",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QS2of",
+                      "fill": "#1D1D1F",
+                      "content": "549 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KtRNx",
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n5mR8",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "hqExD",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Buds",
+                      "fontFamily": "Inter",
+                      "fontSize": 21,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "K3SJl0",
+                      "fill": "#6E6E73",
+                      "content": "Écouteurs sans fil",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LPDDk",
+                      "fill": "#1D1D1F",
+                      "content": "249 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mnrVV",
+                  "width": "fill_container",
+                  "height": 420,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ifjew",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "AETfA",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Sound",
+                      "fontFamily": "Inter",
+                      "fontSize": 21,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "dJSCs",
+                      "fill": "#6E6E73",
+                      "content": "Enceinte bibliothèque",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mAFPo",
+                      "fill": "#1D1D1F",
+                      "content": "399 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fyZKz",
+          "name": "Why",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            96,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "oFQh7",
+              "fill": "#1D1D1F",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Conçu pour durer.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "600",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "i5OqAN",
+              "name": "WhyRow",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zIOD5",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eZSH6",
+                      "fill": "#0071E3",
+                      "content": "MATÉRIAUX",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "xwSMp",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Aluminium recyclé et cuir végétal.",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LrDCS",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Chaque pièce est usinée dans un seul bloc, sans vis apparente.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R4JQ7M",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QNGbI",
+                      "fill": "#0071E3",
+                      "content": "RÉPARABLE",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "H6RvO",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Dix ans de pièces détachées.",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VK3Hw",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Batterie et coussinets remplaçables par vous, sans outil breveté.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Gw9EU",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tIIkJ",
+                      "fill": "#0071E3",
+                      "content": "CARBONE",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "kSfFY",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Neutre depuis 2024.",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZbA9W",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Fabrication européenne, transport maritime, emballage sans plastique.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ofTw5",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": "#D2D2D7",
+          "strokeWidth": {
+            "top": 1
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            48,
+            56,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "wURQb",
+              "name": "FooterCols",
+              "width": "fill_container",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x3GXO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CuMUI",
+                      "fill": "#1D1D1F",
+                      "content": "Boutique",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pdVLR",
+                      "fill": "#6E6E73",
+                      "content": "Casques",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vr1A8",
+                      "fill": "#6E6E73",
+                      "content": "Enceintes",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hbkXR",
+                      "fill": "#6E6E73",
+                      "content": "Platines",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "chLgB",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xAE5o",
+                      "fill": "#1D1D1F",
+                      "content": "Assistance",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zYD85",
+                      "fill": "#6E6E73",
+                      "content": "Livraison",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "foN3m",
+                      "fill": "#6E6E73",
+                      "content": "Retours",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wJNCQ",
+                      "fill": "#6E6E73",
+                      "content": "Garantie",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "i1WwuO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w9a0YM",
+                      "fill": "#1D1D1F",
+                      "content": "Entreprise",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wsnMU",
+                      "fill": "#6E6E73",
+                      "content": "À propos",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u66bxk",
+                      "fill": "#6E6E73",
+                      "content": "Environnement",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bPBLp",
+                      "fill": "#6E6E73",
+                      "content": "Presse",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "imNHn",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r99rJP",
+                      "fill": "#1D1D1F",
+                      "content": "Légal",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yW7nn",
+                      "fill": "#6E6E73",
+                      "content": "Conditions",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gABcy",
+                      "fill": "#6E6E73",
+                      "content": "Confidentialité",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ND4dD",
+                      "fill": "#6E6E73",
+                      "content": "Cookies",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Wsq2g",
+              "fill": "#6E6E73",
+              "content": "© 2026 AURA. Tous droits réservés.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZNshY",
+      "x": 0,
+      "y": 0,
+      "name": "PagePLP",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mjBrk",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#F5F5F7",
+          "stroke": "#D2D2D7",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "O2H3T",
+              "fill": "#1D1D1F",
+              "content": "AURA",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "TZ3mf",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r6oKmt",
+                  "fill": "#1D1D1F",
+                  "content": "Boutique",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xNtIK",
+                  "fill": "#1D1D1F",
+                  "content": "Casques",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "YxBCa",
+                  "fill": "#1D1D1F",
+                  "content": "Enceintes",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "S3JA0R",
+                  "fill": "#1D1D1F",
+                  "content": "Platines",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "nDYcI",
+                  "fill": "#1D1D1F",
+                  "content": "Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iOEkN",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "mxNvn",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "#1D1D1F"
+                },
+                {
+                  "type": "icon",
+                  "id": "q2GZl1",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "shopping-bag",
+                  "library": "lucide",
+                  "fill": "#1D1D1F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GVm3J",
+          "name": "PLPHead",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            56,
+            48,
+            28,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "sLOrT",
+              "fill": "#6E6E73",
+              "content": "Accueil  ›  Boutique",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "E0PIBG",
+              "fill": "#1D1D1F",
+              "content": "Tous les produits.",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "600",
+              "letterSpacing": -1.5
+            },
+            {
+              "type": "text",
+              "id": "Y8UG04",
+              "fill": "#6E6E73",
+              "content": "6 produits",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZDyVm",
+          "name": "PLPFilters",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48,
+            28,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "o3Qsiq",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f9icIE",
+                  "fill": "#1D1D1F",
+                  "cornerRadius": 980,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UGWxV",
+                      "fill": "#FFFFFF",
+                      "content": "Tout",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LEmyf",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 980,
+                  "stroke": "#D2D2D7",
+                  "strokeWidth": 1,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "V6qRJ",
+                      "fill": "#1D1D1F",
+                      "content": "Casques",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MUxi4",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 980,
+                  "stroke": "#D2D2D7",
+                  "strokeWidth": 1,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uoVFz",
+                      "fill": "#1D1D1F",
+                      "content": "Enceintes",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W4gvm",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 980,
+                  "stroke": "#D2D2D7",
+                  "strokeWidth": 1,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Uo2DI",
+                      "fill": "#1D1D1F",
+                      "content": "Platines",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "r7NH0m",
+              "fill": "#6E6E73",
+              "content": "Trier : En vedette  ⌄",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xuTJb",
+          "name": "PLPGrid",
+          "width": "fill_container",
+          "fill": "#F5F5F7",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            48,
+            72,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "q5rh52",
+              "name": "Row1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VRH0M",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "T6eOg",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "R7zlR",
+                      "fill": "#1D1D1F",
+                      "content": "AURA One",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "VyH2x",
+                      "fill": "#6E6E73",
+                      "content": "549 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CGoK8",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jZts9",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "e4pFx1",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Buds",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "dRNfF",
+                      "fill": "#6E6E73",
+                      "content": "249 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HEsm0",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Cfx6E",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "rfxcG",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Sound",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "csGBF",
+                      "fill": "#6E6E73",
+                      "content": "399 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iOQ3m",
+              "name": "Row2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g0vEN",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Djqx4",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "CVqrz",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Studio",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "u8f9Jg",
+                      "fill": "#6E6E73",
+                      "content": "699 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TggoR",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ELt6K",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "T5dPuY",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Vinyl",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "C9kEmR",
+                      "fill": "#6E6E73",
+                      "content": "899 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "idDZa",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zzwhm",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "LF2Rj",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Mini",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "rYw63",
+                      "fill": "#6E6E73",
+                      "content": "199 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Jv08u",
+      "x": 0,
+      "y": 0,
+      "name": "PagePDP",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "c1WJf",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 48,
+          "fill": "#F5F5F7",
+          "stroke": "#D2D2D7",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "O8Z6YA",
+              "fill": "#1D1D1F",
+              "content": "AURA",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600",
+              "letterSpacing": 3
+            },
+            {
+              "type": "frame",
+              "id": "I2BaG",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z0lHN",
+                  "fill": "#1D1D1F",
+                  "content": "Boutique",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rVmZD",
+                  "fill": "#1D1D1F",
+                  "content": "Casques",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tfsKL",
+                  "fill": "#1D1D1F",
+                  "content": "Enceintes",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Q2QiTs",
+                  "fill": "#1D1D1F",
+                  "content": "Platines",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zorAX",
+                  "fill": "#1D1D1F",
+                  "content": "Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ICjjX",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "sroq2",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "#1D1D1F"
+                },
+                {
+                  "type": "icon",
+                  "id": "rN0Lj",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "shopping-bag",
+                  "library": "lucide",
+                  "fill": "#1D1D1F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mXQSP",
+          "name": "PDPMain",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 64,
+          "padding": [
+            40,
+            48,
+            64,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "S1yGz",
+              "name": "PDPPanel",
+              "width": 720,
+              "fill": "#F5F5F7",
+              "cornerRadius": 18,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UZKq1",
+                  "name": "PDPPhoto",
+                  "width": "fill_container",
+                  "height": 560,
+                  "fill": "#E8E8ED",
+                  "cornerRadius": 12
+                },
+                {
+                  "type": "frame",
+                  "id": "d854G7",
+                  "name": "PDPThumbs",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "W69rZP",
+                      "name": "Thumb1",
+                      "width": 96,
+                      "height": 96,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EwSla",
+                      "name": "Thumb2",
+                      "width": 96,
+                      "height": 96,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lWamI",
+                      "name": "Thumb3",
+                      "width": 96,
+                      "height": 96,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 8
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hyB46",
+              "name": "PDPInfo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SNRYM",
+                  "fill": "#6E6E73",
+                  "content": "Accueil  ›  Casques  ›  AURA One",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AD0SP",
+                  "fill": "#1D1D1F",
+                  "content": "AURA One",
+                  "fontFamily": "Inter",
+                  "fontSize": 44,
+                  "fontWeight": "600",
+                  "letterSpacing": -1.2
+                },
+                {
+                  "type": "text",
+                  "id": "JJaD7",
+                  "fill": "#1D1D1F",
+                  "content": "549 €",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "d1OfS",
+                  "fill": "#6E6E73",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Réduction de bruit adaptative, 40 heures d'autonomie et un arceau en aluminium recyclé. Le casque le plus léger de la gamme.",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vUMna",
+                  "fill": "#1D1D1F",
+                  "content": "Finition",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "hCGzM",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "EwvzB",
+                      "fill": "#1D1D1F",
+                      "width": 26,
+                      "height": 26
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "j8ep2B",
+                      "fill": "#B9B9BE",
+                      "width": 26,
+                      "height": 26
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "EphF7",
+                      "fill": "#5A4633",
+                      "width": 26,
+                      "height": 26
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aGLXh",
+                  "fill": "#0071E3",
+                  "cornerRadius": 980,
+                  "padding": [
+                    14,
+                    30
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "w0ur6",
+                      "fill": "#FFFFFF",
+                      "content": "Ajouter au panier",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "jh4AR",
+                  "fill": "#6E6E73",
+                  "content": "Livraison offerte · Retour gratuit sous 30 jours",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "B8dCDL",
+                  "width": "fill_container",
+                  "stroke": "#D2D2D7",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F1esBf",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rvAW8",
+                          "fill": "#6E6E73",
+                          "content": "Autonomie",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KkA9w",
+                          "fill": "#1D1D1F",
+                          "content": "40 heures",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dhH9G",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oJMFz",
+                          "fill": "#6E6E73",
+                          "content": "Poids",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "C1Z1ai",
+                          "fill": "#1D1D1F",
+                          "content": "248 g",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YW2RM",
+                      "width": "fill_container",
+                      "padding": [
+                        10,
+                        0
+                      ],
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tQpO6",
+                          "fill": "#6E6E73",
+                          "content": "Bluetooth",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "y0rlbe",
+                          "fill": "#1D1D1F",
+                          "content": "5.4 · multipoint",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "g0ay5",
+          "name": "PDPRelated",
+          "width": "fill_container",
+          "fill": "#F5F5F7",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            56,
+            48,
+            72,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zOqUC",
+              "fill": "#1D1D1F",
+              "content": "À compléter avec.",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "600",
+              "letterSpacing": -0.8
+            },
+            {
+              "type": "frame",
+              "id": "U5dDwD",
+              "name": "RelRow",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NjSaj",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Pq8BZ",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "qeoTc",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Buds",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "vifGT",
+                      "fill": "#6E6E73",
+                      "content": "249 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qnRQa",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "x1ma8",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "fxalo",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Sound",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "c3fFT",
+                      "fill": "#6E6E73",
+                      "content": "399 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yO81m",
+                  "width": "fill_container",
+                  "height": 360,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XJ6Mn",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#E8E8ED",
+                      "cornerRadius": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "W7evMa",
+                      "fill": "#1D1D1F",
+                      "content": "AURA Mini",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "PFdKI",
+                      "fill": "#6E6E73",
+                      "content": "199 €",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "911fe286-3d23-4efc-8798-32dabfcdba5c"
+}

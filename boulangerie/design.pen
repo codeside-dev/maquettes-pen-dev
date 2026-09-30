@@ -1,0 +1,1943 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "CFDUC",
+      "x": 0,
+      "y": 0,
+      "name": "Page",
+      "width": 1440,
+      "fill": "#FBF7F0",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "VlJGU",
+          "name": "Topbar",
+          "width": "fill_container",
+          "fill": "#2B1D14",
+          "padding": [
+            10,
+            72
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "QnyZe",
+              "fill": "#F3EAD9",
+              "content": "Commandes en ligne — retrait en boutique dès 8h, livraison à Lyon 6e",
+              "fontFamily": "IBM Plex Mono",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zz5pA",
+          "name": "Nav",
+          "width": "fill_container",
+          "fill": "#FBF7F0",
+          "padding": [
+            22,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aLLa2",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LJTSU",
+                  "width": 34,
+                  "height": 34,
+                  "fill": "#C2410C",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Chy5u",
+                      "fill": "#FBF7F0",
+                      "content": "M",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "nFMpQ",
+                  "fill": "#2B1D14",
+                  "content": "Le Fournil de Margot",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s23kyG",
+              "gap": 28,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z7d1S",
+                  "fill": "#7A6A5C",
+                  "content": "La boulangerie",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Bhe9B",
+                  "fill": "#7A6A5C",
+                  "content": "Nos produits",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "zVgpU",
+                  "fill": "#7A6A5C",
+                  "content": "Nous trouver",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "GtcIn",
+                  "fill": "#2B1D14",
+                  "cornerRadius": 10,
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qz9rM",
+                      "fill": "#FBF7F0",
+                      "content": "Panier · 0",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sfPa7",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "#FBF7F0",
+          "gap": 56,
+          "padding": [
+            64,
+            72,
+            76,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JaODh",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LbV9d",
+                  "fill": "#C2410C",
+                  "content": "BOULANGERIE ARTISANALE · LYON 6e",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "I5nPUl",
+                  "name": "H1",
+                  "fill": "#2B1D14",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Le pain comme on le faisait avant.",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 56,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "C6Ay4j",
+                  "name": "Sub",
+                  "fill": "#7A6A5C",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Farines de la Drôme, levain naturel entretenu depuis 1998, et tout ce qui sort du four à sept heures du matin.",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "IF9Kt",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ExXco",
+                      "fill": "#C2410C",
+                      "cornerRadius": 10,
+                      "padding": [
+                        15,
+                        28
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JCoeF",
+                          "fill": "#FFFFFF",
+                          "content": "Commander en ligne",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "esadp",
+                      "fill": "#FBF7F0",
+                      "cornerRadius": 10,
+                      "stroke": "#D9C9B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        15,
+                        28
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "usXFH",
+                          "fill": "#2B1D14",
+                          "content": "Voir nos produits",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xl2KS",
+                  "fill": "#7A6A5C",
+                  "content": "Ouvert du mardi au dimanche · 7h – 19h30",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sklel",
+              "name": "HeroVisual",
+              "width": 560,
+              "fill": "#F3EAD9",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 28,
+              "padding": 40,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TZ5nq",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MfZkr",
+                      "fill": "#FBF7F0",
+                      "cornerRadius": 999,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wxEFC",
+                          "fill": "#2B1D14",
+                          "content": "Fait main",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h2YoQY",
+                      "fill": "#FBF7F0",
+                      "cornerRadius": 999,
+                      "padding": [
+                        7,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "V0V6r",
+                          "fill": "#2B1D14",
+                          "content": "Farine bio",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "coSK6",
+                  "name": "HeroPhoto",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": 300,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#F2E4CA",
+                        "position": 0
+                      },
+                      {
+                        "color": "#C08A45",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 16,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "J3Ltc",
+                      "x": 80,
+                      "y": 52,
+                      "fill": "#B98449",
+                      "width": 320,
+                      "height": 210,
+                      "effect": {
+                        "type": "blur",
+                        "radius": 55
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "LTQXF",
+                      "x": 156,
+                      "y": 96,
+                      "fill": "#8E5F32",
+                      "width": 170,
+                      "height": 120,
+                      "effect": {
+                        "type": "blur",
+                        "radius": 40
+                      }
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "O20Zvj",
+                      "x": 196,
+                      "y": 126,
+                      "fill": "#6B4423",
+                      "width": 90,
+                      "height": 60,
+                      "effect": {
+                        "type": "blur",
+                        "radius": 28
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "R5hTO",
+                  "fill": "#7A6A5C",
+                  "content": "Levain naturel · 24 h de pousse",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Y63Qw",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "#FBF7F0",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            92,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "I838o",
+              "name": "AboutHead",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Mhi6w",
+                  "fill": "#C2410C",
+                  "content": "LA MAISON",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "QgxEn",
+                  "fill": "#2B1D14",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Trois générations, un seul levain.",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 40,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "CzfdH",
+                  "fill": "#7A6A5C",
+                  "textGrowth": "fixed-width",
+                  "width": 760,
+                  "content": "Margot a ouvert le fournil en 1998 avec un pétrin d'occasion et la recette de sa grand-mère. Vingt-huit ans plus tard, le levain est toujours le même — nourri chaque matin, jamais remplacé. La boutique a grandi, pas la méthode.",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZWaoJ",
+              "name": "AboutValues",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Fwwqa",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bMuxr",
+                      "fill": "#2B1D14",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Farines de la Drôme",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R4xtT",
+                      "fill": "#7A6A5C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trois moulins partenaires, des blés anciens, un meunier à quarante kilomètres.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hUaJA",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EAo3I",
+                      "fill": "#2B1D14",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Levain naturel",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dj1Zb",
+                      "fill": "#7A6A5C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Entretenu chaque jour depuis 1998. Aucune levure industrielle, aucune exception.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lEFSB",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Wlhov",
+                      "fill": "#2B1D14",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Cuisson au four à bois",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jccYz",
+                      "fill": "#7A6A5C",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sole à 250 °C, quatre fournées par jour, de sept heures à dix-sept heures.",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YaCLv",
+          "name": "Eshop",
+          "width": "fill_container",
+          "fill": "#F3EAD9",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            92,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "lOMQV",
+              "name": "EshopHead",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XnuN1",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hnomV",
+                      "fill": "#C2410C",
+                      "content": "LA BOUTIQUE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "m2GN1",
+                      "fill": "#2B1D14",
+                      "content": "Nos produits, à emporter.",
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 40,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qgdUW",
+                      "fill": "#7A6A5C",
+                      "content": "Commandez avant 10h, retirez au fournil l'après-midi.",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Bc9YV",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e0iccC",
+                      "fill": "#2B1D14",
+                      "cornerRadius": 999,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ek2xr",
+                          "fill": "#FBF7F0",
+                          "content": "Tout",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yZQzo",
+                      "fill": "#FBF7F0",
+                      "cornerRadius": 999,
+                      "stroke": "#D9C9B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eepa3",
+                          "fill": "#7A6A5C",
+                          "content": "Pains",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vgWSf",
+                      "fill": "#FBF7F0",
+                      "cornerRadius": 999,
+                      "stroke": "#D9C9B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m8gWu",
+                          "fill": "#7A6A5C",
+                          "content": "Viennoiseries",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RXjde",
+                      "fill": "#FBF7F0",
+                      "cornerRadius": 999,
+                      "stroke": "#D9C9B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Rx7Zr",
+                          "fill": "#7A6A5C",
+                          "content": "Pâtisseries",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oJBdf",
+              "name": "EshopRow1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "d1l4hH",
+                  "width": "fill_container",
+                  "height": 352,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": 18,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XsDt7",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F2E4CA",
+                            "position": 0
+                          },
+                          {
+                            "color": "#C08A45",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Mwx0q",
+                          "x": 121,
+                          "y": 27,
+                          "fill": "#B98449",
+                          "width": 140,
+                          "height": 96,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 30
+                          }
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "Jh9HI",
+                          "x": 153,
+                          "y": 48,
+                          "fill": "#8E5F32",
+                          "width": 76,
+                          "height": 54,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C6AXE",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tsKRf",
+                          "fill": "#C2410C",
+                          "content": "PAINS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "MGNp6",
+                          "fill": "#2B1D14",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tradition au levain",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bhAma",
+                          "fill": "#7A6A5C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Farine T65 de la Drôme, croûte épaisse, mie dense.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H6Ll6",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D5JvK",
+                          "fill": "#2B1D14",
+                          "content": "4,20 €",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ULPJM",
+                          "fill": "#C2410C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            9,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Rg2Gr",
+                              "fill": "#FFFFFF",
+                              "content": "Ajouter",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Icmzu",
+                  "width": "fill_container",
+                  "height": 352,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": 18,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZX5kO",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFE2CC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#B08650",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "IdY6h",
+                          "x": 121,
+                          "y": 27,
+                          "fill": "#9E7040",
+                          "width": 140,
+                          "height": 96,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 30
+                          }
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "A50JPv",
+                          "x": 153,
+                          "y": 48,
+                          "fill": "#7A5228",
+                          "width": 76,
+                          "height": 54,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VsVHJ",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PSriK",
+                          "fill": "#C2410C",
+                          "content": "PAINS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "C3PwRM",
+                          "fill": "#2B1D14",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Campagne aux graines",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WB6FL",
+                          "fill": "#7A6A5C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tournesol, lin et sésame. Se garde trois jours.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "V1KSO",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fU7GM",
+                          "fill": "#2B1D14",
+                          "content": "4,80 €",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sTlKT",
+                          "fill": "#C2410C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            9,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VDjAk",
+                              "fill": "#FFFFFF",
+                              "content": "Ajouter",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g05TM",
+                  "width": "fill_container",
+                  "height": 352,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": 18,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GX4Qe",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#E4D6BE",
+                            "position": 0
+                          },
+                          {
+                            "color": "#8E6A48",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "K4dLZ",
+                          "x": 121,
+                          "y": 27,
+                          "fill": "#7A5940",
+                          "width": 140,
+                          "height": 96,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 30
+                          }
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "rPEYR",
+                          "x": 153,
+                          "y": 48,
+                          "fill": "#5A3E2A",
+                          "width": 76,
+                          "height": 54,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N7b8WF",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K7dglu",
+                          "fill": "#C2410C",
+                          "content": "PAINS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "RDcrs",
+                          "fill": "#2B1D14",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Seigle complet",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EBql0",
+                          "fill": "#7A6A5C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Dense et long en bouche, parfait avec un fromage.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FA3z8",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FEZxF",
+                          "fill": "#2B1D14",
+                          "content": "5,10 €",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uH6d2",
+                          "fill": "#C2410C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            9,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "bS3ul",
+                              "fill": "#FFFFFF",
+                              "content": "Ajouter",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IH6YM",
+              "name": "EshopRow2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DRnJH",
+                  "width": "fill_container",
+                  "height": 352,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": 18,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jz1Hr",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F6E8C4",
+                            "position": 0
+                          },
+                          {
+                            "color": "#D4A055",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "f4P1S5",
+                          "x": 121,
+                          "y": 27,
+                          "fill": "#C08A42",
+                          "width": 140,
+                          "height": 96,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 30
+                          }
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "uXP6a",
+                          "x": 153,
+                          "y": 48,
+                          "fill": "#96652C",
+                          "width": 76,
+                          "height": 54,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FBMj8",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dreES",
+                          "fill": "#C2410C",
+                          "content": "VIENNOISERIES",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "jk8Ww",
+                          "fill": "#2B1D14",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Croissant pur beurre",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rN00Q",
+                          "fill": "#7A6A5C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Beurre AOP, 72 heures de fermentation lente.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KWIle",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZpuxH",
+                          "fill": "#2B1D14",
+                          "content": "1,40 €",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BKioX",
+                          "fill": "#C2410C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            9,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "w5hiz",
+                              "fill": "#FFFFFF",
+                              "content": "Ajouter",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pn8Op",
+                  "width": "fill_container",
+                  "height": 352,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": 18,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bVua0",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EDD9BC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#A9764A",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "havnf",
+                          "x": 121,
+                          "y": 27,
+                          "fill": "#8A5A34",
+                          "width": 140,
+                          "height": 96,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 30
+                          }
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "NLEaT",
+                          "x": 153,
+                          "y": 48,
+                          "fill": "#5E3A1F",
+                          "width": 76,
+                          "height": 54,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "atpSW",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h5AGuc",
+                          "fill": "#C2410C",
+                          "content": "VIENNOISERIES",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "bF2gh",
+                          "fill": "#2B1D14",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Pain au chocolat",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "s8FRTk",
+                          "fill": "#7A6A5C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Deux barres de chocolat noir à 70 %.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RmMag",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SdQoV",
+                          "fill": "#2B1D14",
+                          "content": "1,60 €",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JPhh5",
+                          "fill": "#C2410C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            9,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GOWA3",
+                              "fill": "#FFFFFF",
+                              "content": "Ajouter",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bX5gf",
+                  "width": "fill_container",
+                  "height": 352,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "stroke": "#E8DCC8",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": 18,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PVciS",
+                      "clip": true,
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F5E5C2",
+                            "position": 0
+                          },
+                          {
+                            "color": "#C89A5F",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "DfcJ1",
+                          "x": 121,
+                          "y": 27,
+                          "fill": "#B07C42",
+                          "width": 140,
+                          "height": 96,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 30
+                          }
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "E8xyI",
+                          "x": 153,
+                          "y": 48,
+                          "fill": "#8A5C2E",
+                          "width": 76,
+                          "height": 54,
+                          "effect": {
+                            "type": "blur",
+                            "radius": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xrzS6",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z8NjQ",
+                          "fill": "#C2410C",
+                          "content": "PÂTISSERIES",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "GnLWx",
+                          "fill": "#2B1D14",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tarte aux pommes",
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 21,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SIiGu",
+                          "fill": "#7A6A5C",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Pommes du Forez, pâte brisée au beurre frais.",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N14ib",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yJltc",
+                          "fill": "#2B1D14",
+                          "content": "4,50 €",
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "u68dAp",
+                          "fill": "#C2410C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            9,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Kxn5q",
+                              "fill": "#FFFFFF",
+                              "content": "Ajouter",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SBaMa",
+          "name": "Infos",
+          "width": "fill_container",
+          "fill": "#2B1D14",
+          "gap": 64,
+          "padding": [
+            88,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nwzuY",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "iB4cy",
+                  "fill": "#E8A87C",
+                  "content": "NOUS TROUVER",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 12,
+                  "fontWeight": "600",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "text",
+                  "id": "U2D2n",
+                  "fill": "#FBF7F0",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Passez nous voir.",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 38,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ESgLg",
+                  "fill": "#D9C9B0",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "14 rue de la Charité\n69002 Lyon",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fhksP",
+                  "fill": "#D9C9B0",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "04 78 00 00 00\nbonjour@fournildemargot.fr",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "bXyxl",
+                  "fill": "#C2410C",
+                  "cornerRadius": 10,
+                  "padding": [
+                    14,
+                    26
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p9QUx",
+                      "fill": "#FFFFFF",
+                      "content": "Commander en ligne",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QBeZV",
+              "name": "Hours",
+              "width": 520,
+              "fill": "#3A2A1E",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 30,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BLMZm",
+                  "fill": "#FBF7F0",
+                  "content": "Horaires d'ouverture",
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 20,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "igzUO",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zy3fw",
+                      "fill": "#D9C9B0",
+                      "content": "Mardi – Vendredi",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v75WYj",
+                      "fill": "#FBF7F0",
+                      "content": "7h – 19h30",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T5lqP",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RPv40",
+                      "fill": "#D9C9B0",
+                      "content": "Samedi",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jRhNB",
+                      "fill": "#FBF7F0",
+                      "content": "7h – 20h",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k3S4g",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rWCbV",
+                      "fill": "#D9C9B0",
+                      "content": "Dimanche",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R2piHD",
+                      "fill": "#FBF7F0",
+                      "content": "7h – 13h",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uwI3z",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PIZbE",
+                      "fill": "#D9C9B0",
+                      "content": "Lundi",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cYkHr",
+                      "fill": "#E8A87C",
+                      "content": "Fermé",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LEL0n",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#241811",
+          "padding": [
+            30,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "rfDlv",
+              "fill": "#9C8874",
+              "content": "© 2026 Le Fournil de Margot — Boulangerie artisanale à Lyon",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "GMcGo",
+              "gap": 26,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "v0AWbP",
+                  "fill": "#9C8874",
+                  "content": "Mentions légales",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eH3d7",
+                  "fill": "#9C8874",
+                  "content": "Livraison",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ZOtMv",
+                  "fill": "#9C8874",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "adf08947-b151-421e-8dee-5650457fb984"
+}
