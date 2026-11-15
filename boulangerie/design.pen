@@ -1711,7 +1711,7 @@
                   "fill": "#D9C9B0",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "14 rue de la Charité\n69002 Lyon",
+                  "content": "1 rue de l'Exemple\n69000 Lyon",
                   "fontFamily": "Inter",
                   "fontSize": 16,
                   "fontWeight": "normal"
@@ -1722,7 +1722,7 @@
                   "fill": "#D9C9B0",
                   "textGrowth": "fixed-width",
                   "width": "fill_container",
-                  "content": "04 78 00 00 00\nbonjour@fournildemargot.fr",
+                  "content": "04 65 71 00 00\nbonjour@fournil-margot.example",
                   "fontFamily": "Inter",
                   "fontSize": 16,
                   "fontWeight": "normal"
